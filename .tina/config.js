@@ -15,7 +15,7 @@ export const config = defineConfig({
       {
         label: "Page Content",
         name: "page",
-        path: "content/page",
+        path: "content/pages",
         format: "mdx",
         fields: [
           {
