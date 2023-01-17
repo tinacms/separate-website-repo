@@ -1,11 +1,12 @@
-This is a [Tina CMS](https://tina.io/) project.
+This is a [Tina CMS](https://tina.io/) project which uses a separate repo to store the CMS content.
 
 ## Create the content repository
 
-Well start with a simple `.mdx` file, from the root of this repo run:
+Using a separate content repo works by defining your config in the repo you'll use for editing the contnet (which is this repo). We'll call that the "website repo".
+To set up the "content repo", we'll start with a simple `.mdx` file:
 
 ```
-mkdir -p ../tina-demo-content/content/pages && touch ../tina-demo-content/content/pages/home.mdx && echo "Hello" >> ../tina-demo-content/content/pages/home.mdx
+mkdir -p ../demo-content-repo/content/pages && touch ../demo-content-repo/content/pages/home.mdx && echo "Hello" >> ../demo-content-repo/content/pages/home.mdx
 ```
 
 ## Local Development
