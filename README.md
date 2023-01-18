@@ -1,8 +1,13 @@
-This is a [Tina CMS](https://tina.io/) project which uses a separate repo to store the CMS content.
+This is a [Tina CMS](https://tina.io/) project which uses a separate repo to store the CMS content. Originally suggested [here](https://github.com/tinacms/tinacms/discussions/2821).  
+
+## Why?
+You might want to do this for a variety of reasons, such as:
+* To decouple your website code from your content files so your commit history isn't a mix of content updates and code updates
+* To avoid having to give Tina Cloud write access to your website's code (only give access to your content repo)
 
 ## Create the content repository
 
-Using a separate content repo works by defining your config in the repo you'll use for editing the contnet (which is this repo). We'll call that the "website repo".
+Using a separate content repo works by defining your config in the repo you'll use for _editing_ with the CMS (which is this repo). We'll call that the "website repo".
 To set up the "content repo", we'll start with a simple `.mdx` file:
 
 ```
