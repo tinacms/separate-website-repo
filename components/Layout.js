@@ -15,11 +15,11 @@ export const Layout = (props) => {
       </Head>
       <header>
         <Link href="/">
-          <a>Home</a>
+          Home
         </Link>
         {' | '}
         <Link href="/posts">
-          <a>Posts</a>
+          Posts
         </Link>
       </header>
       <main>{props.children}</main>

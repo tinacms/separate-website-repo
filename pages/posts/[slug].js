@@ -1,6 +1,6 @@
 import { Layout } from "../../components/Layout";
 import { useTina } from "tinacms/dist/react";
-import { client } from "../../.tina/__generated__/client";
+import { client } from "../../tina/__generated__/client";
 
 export default function Home(props) {
   const { data } = useTina({
